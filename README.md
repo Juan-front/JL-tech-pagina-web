@@ -1,57 +1,12 @@
-# JL-tech-pagina-web
-🌐 JLTech Solutions – Site Institucional
+# React + Vite
 
-Projeto de site institucional one-page desenvolvido em React com Tailwind CSS, responsivo e otimizado para portfólio e empresas de tecnologia.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🚀 Funcionalidades
+Currently, two official plugins are available:
 
-Navbar responsiva com links para seções da página.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Hero Section com chamada para ação (CTA).
+## Expanding the ESLint configuration
 
-Cards de Serviços apresentando as principais soluções.
-
-Seção de Diferenciais / Features destacando pontos fortes.
-
-Rodapé (Footer) com contatos e links úteis.
-
-Design clean, moderno e responsivo (mobile-first).
-
-📂 Estrutura do Projeto
-jltech-site/
-│── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Services.jsx
-│   │   ├── Features.jsx
-│   │   ├── Footer.jsx
-│   │   └── JLTechSolutionsTemplate.jsx
-│   ├── App.jsx
-│   └── main.jsx
-│── public/
-│── package.json
-│── tailwind.config.js
-│── README.md
-
-🛠️ Tecnologias Utilizadas
-
-React 18+
-
-Vite
-
-Tailwind CSS
-
-📦 Instalação e Uso
-
-Clone o repositório e instale as dependências:
-
-git clone https://github.com/seu-usuario/jltech-site.git
-cd jltech-site
-npm install
-npm run dev
-
-
-Acesse no navegador:
-
-http://localhost:5173
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
