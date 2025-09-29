@@ -1,12 +1,75 @@
-# React + Vite
+JLTech Solutions – Site Institucional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site institucional desenvolvido em React + Vite com Tailwind CSS, totalmente responsivo e com componentes reutilizáveis.
+O objetivo foi criar uma one-page moderna e otimizada, que pode ser utilizada como base para empresas de tecnologia ou serviços digitais.
 
-Currently, two official plugins are available:
+🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React 19
 
-## Expanding the ESLint configuration
+Vite
+ para bundling e dev server
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tailwind CSS 4
+ para estilização responsiva
+
+ESLint configurado para boas práticas
+
+eslint.config
+
+Plugins oficiais do Vite (@vitejs/plugin-react, @tailwindcss/vite)
+
+vite.config
+
+📂 Estrutura de Pastas
+jltech-site/
+│── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Services.jsx
+│   │   ├── Features.jsx
+│   │   ├── Footer.jsx
+│   │   └── JLTechSolutionsTemplate.jsx
+│   ├── App.jsx
+│   └── main.jsx
+│── public/
+│── package.json
+│── tailwind.config.js
+│── vite.config.js
+│── README.md
+
+⚙️ Instalação e Uso
+
+Clone o repositório:
+
+git clone https://github.com/seu-usuario/jltech-site.git
+cd jltech-site
+
+
+Instale as dependências:
+
+npm install
+
+
+Inicie o servidor de desenvolvimento:
+
+npm run dev
+
+
+Build para produção:
+
+npm run build
+npm run preview
+
+📌 Funcionalidades
+
+Navbar responsiva
+
+Seção Hero com CTA (Call to Action)
+
+Cards de Serviços
+
+Seção de Features/Diferenciais
+
+Rodapé institucional
